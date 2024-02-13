@@ -122,7 +122,6 @@ ul li a:hover {
     border-radius: 1px;
 }
 
-
 ul li:hover ul.dropdown {
     display: block;
 }
@@ -166,12 +165,43 @@ ul li:hover ul.dropdown {
 }
 
 .sidebar h2 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     margin-bottom: 30px;
+    
 }
 
 .sidebar a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.content h1{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    margin-left: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+.content p{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: large;
+}
+.content a{
+    align-items: center;
+    margin-left: 250px;
+}
+.semIsub a{
+    list-style: none;
+}
+iframe{
+    margin-left: 450px;
+    margin-top: 50px;
+    align-items: center;
 }
